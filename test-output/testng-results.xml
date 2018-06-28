@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7316" started-at="2018-06-28T10:12:45Z" finished-at="2018-06-28T10:12:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7316" started-at="2018-06-28T10:12:45Z" finished-at="2018-06-28T10:12:52Z">
+      <class name="http_client.gmail_compose.googlesearch">
+        <test-method status="PASS" signature="opensearchEngine()[pri:0, instance:http_client.gmail_compose.googlesearch@5b799640]" name="opensearchEngine" duration-ms="3858" started-at="2018-06-28T15:42:45Z" finished-at="2018-06-28T15:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensearchEngine -->
+        <test-method status="PASS" signature="TestEntries()[pri:0, instance:http_client.gmail_compose.googlesearch@5b799640]" name="TestEntries" duration-ms="1015" started-at="2018-06-28T15:42:49Z" depends-on-methods="http_client.gmail_compose.googlesearch.opensearchEngine" finished-at="2018-06-28T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEntries -->
+        <test-method status="PASS" signature="checkloginComplete()[pri:0, instance:http_client.gmail_compose.googlesearch@5b799640]" name="checkloginComplete" duration-ms="2430" started-at="2018-06-28T15:42:50Z" depends-on-methods="http_client.gmail_compose.googlesearch.TestEntries" finished-at="2018-06-28T15:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginComplete -->
+      </class> <!-- http_client.gmail_compose.googlesearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
