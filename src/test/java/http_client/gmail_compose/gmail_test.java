@@ -24,6 +24,6 @@ public class gmail_test {
 	@Test(dependsOnMethods = "Testgmaillogin")
 	private void TestEntries()
 	{
-		gmail.login("psnagar259", "Puneet@259");
+		gmail.login("username", "Password");
 	}
 }
