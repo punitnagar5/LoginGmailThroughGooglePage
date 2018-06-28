@@ -23,7 +23,7 @@ public class googlesearch {
 	@Test (dependsOnMethods = "opensearchEngine")
 	private void TestEntries()
 	{
-		search.login("psnagar259", "Puneet@259");
+		search.login("username", "password");
 	}
 	
 	@Test (dependsOnMethods = "TestEntries")
